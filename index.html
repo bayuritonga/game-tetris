@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tetris Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Tetris Sederhana</h1>
+        <button id="startButton">Mulai Permainan</button>
+        <div id="highScore">Skor Tertinggi: <span id="highScoreValue">0</span></div>
+    </div>
+    <div id="gameOverMenu" style="display: none;">
+        <h1>Game Over</h1>
+        <button id="restartButton">Restart</button>
+        <button id="backToMenuButton">Kembali ke Menu</button>
+    </div>
+    <div id="tetris" style="display: none;">
+        <canvas id="board" width="300" height="600"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
